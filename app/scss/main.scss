@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -32,20 +32,22 @@ header {
 h1 {
   margin: 0 20px;
   color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
 button {
   margin-left: 16px;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   background-color: #aef6c7;
   border-radius: 5px;
   padding: 8px;
   border: 1px solid #3e6259;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 main {
-  margin: 90px auto;
+  margin: 90px auto 0;
   flex: 1;
   display: flex;
   padding: 16px;
@@ -56,17 +58,18 @@ main {
 
     &:first-child textarea {
       margin-right: 32px;
+      width: 700px;
     }
   }
 }
 
 label {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   word-wrap: normal;
 }
 
 textarea {
-  width: 500px;
+  width: 300px;
   height: 100%;
   font-size: 1.4rem;
   outline: none;
