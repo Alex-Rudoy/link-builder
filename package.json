@@ -1,10 +1,9 @@
 {
-  "name": "agency-website-template",
+  "name": "link-helper",
   "version": "1.0.0",
-  "description": "training html on the template",
+  "description": "HTML, SCSS, JS project to help with links",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server",
     "build": "webpack"
   },
