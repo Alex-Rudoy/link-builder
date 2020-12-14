@@ -27,7 +27,7 @@ const utils = {
     return link.replace(/(http(s)?:\/\/)?(www.)?/gi, "").replace(/\/.*/gi, "");
   },
 
-  addHTTP: () => {
+  addHTTP: (links) => {
     return links.map((link) => {
       if (!link.match(/^http/gi)) return "http://" + link;
       return link;
